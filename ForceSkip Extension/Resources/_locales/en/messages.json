@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "ForceSkip",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Adds a force skip button to the player",
+        "description": "Description of what the extension does."
+    }
+}

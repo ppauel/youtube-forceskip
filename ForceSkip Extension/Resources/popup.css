@@ -1,0 +1,17 @@
+* {
+    outline: none;
+}
+
+body {
+    width: 200px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: system-ui;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 10px 0;
+}

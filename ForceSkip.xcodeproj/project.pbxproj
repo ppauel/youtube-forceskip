@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA15F1502A7EE51000057C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15F14F2A7EE51000057C69 /* AppDelegate.swift */; };
+		DA15F1542A7EE51000057C69 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1522A7EE51000057C69 /* Main.html */; };
+		DA15F1562A7EE51000057C69 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1552A7EE51000057C69 /* Icon.png */; };
+		DA15F1582A7EE51000057C69 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1572A7EE51000057C69 /* Style.css */; };
+		DA15F15A2A7EE51000057C69 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1592A7EE51000057C69 /* Script.js */; };
+		DA15F15C2A7EE51000057C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15F15B2A7EE51000057C69 /* ViewController.swift */; };
+		DA15F15F2A7EE51000057C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15F15D2A7EE51000057C69 /* Main.storyboard */; };
+		DA15F1612A7EE51100057C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1602A7EE51100057C69 /* Assets.xcassets */; };
+		DA15F1692A7EE51200057C69 /* ForceSkip Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DA15F1682A7EE51200057C69 /* ForceSkip Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA15F16E2A7EE51200057C69 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15F16D2A7EE51200057C69 /* SafariWebExtensionHandler.swift */; };
+		DA15F1712A7EE51200057C69 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1702A7EE51200057C69 /* _locales */; };
+		DA15F1732A7EE51200057C69 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1722A7EE51200057C69 /* images */; };
+		DA15F1752A7EE51200057C69 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1742A7EE51200057C69 /* manifest.json */; };
+		DA15F1772A7EE51200057C69 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1762A7EE51200057C69 /* background.js */; };
+		DA15F1792A7EE51200057C69 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DA15F1782A7EE51200057C69 /* content.js */; };
+		DA15F17B2A7EE51200057C69 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DA15F17A2A7EE51200057C69 /* popup.html */; };
+		DA15F17D2A7EE51200057C69 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DA15F17C2A7EE51200057C69 /* popup.css */; };
+		DA15F18C2A7EF8D900057C69 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA15F18B2A7EF8D900057C69 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA15F16A2A7EE51200057C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA15F1442A7EE51000057C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA15F1672A7EE51200057C69;
+			remoteInfo = "ForceSkip Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA15F1872A7EE51200057C69 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DA15F1692A7EE51200057C69 /* ForceSkip Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA15F14C2A7EE51000057C69 /* ForceSkip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceSkip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15F14F2A7EE51000057C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA15F1532A7EE51000057C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DA15F1552A7EE51000057C69 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DA15F1572A7EE51000057C69 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DA15F1592A7EE51000057C69 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DA15F15B2A7EE51000057C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA15F15E2A7EE51000057C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA15F1602A7EE51100057C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA15F1622A7EE51100057C69 /* ForceSkip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForceSkip.entitlements; sourceTree = "<group>"; };
+		DA15F1632A7EE51100057C69 /* ForceSkip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForceSkip.entitlements; sourceTree = "<group>"; };
+		DA15F1682A7EE51200057C69 /* ForceSkip Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ForceSkip Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15F16D2A7EE51200057C69 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DA15F1702A7EE51200057C69 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		DA15F1722A7EE51200057C69 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		DA15F1742A7EE51200057C69 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		DA15F1762A7EE51200057C69 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		DA15F1782A7EE51200057C69 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		DA15F17A2A7EE51200057C69 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		DA15F17C2A7EE51200057C69 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		DA15F1802A7EE51200057C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA15F1812A7EE51200057C69 /* ForceSkip_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForceSkip_Extension.entitlements; sourceTree = "<group>"; };
+		DA15F18B2A7EF8D900057C69 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA15F1492A7EE51000057C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15F1652A7EE51200057C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA15F1432A7EE51000057C69 = {
+			isa = PBXGroup;
+			children = (
+				DA15F18B2A7EF8D900057C69 /* .gitignore */,
+				DA15F14E2A7EE51000057C69 /* ForceSkip */,
+				DA15F16C2A7EE51200057C69 /* ForceSkip Extension */,
+				DA15F14D2A7EE51000057C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA15F14D2A7EE51000057C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA15F14C2A7EE51000057C69 /* ForceSkip.app */,
+				DA15F1682A7EE51200057C69 /* ForceSkip Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA15F14E2A7EE51000057C69 /* ForceSkip */ = {
+			isa = PBXGroup;
+			children = (
+				DA15F14F2A7EE51000057C69 /* AppDelegate.swift */,
+				DA15F15B2A7EE51000057C69 /* ViewController.swift */,
+				DA15F15D2A7EE51000057C69 /* Main.storyboard */,
+				DA15F1602A7EE51100057C69 /* Assets.xcassets */,
+				DA15F1622A7EE51100057C69 /* ForceSkip.entitlements */,
+				DA15F1632A7EE51100057C69 /* ForceSkip.entitlements */,
+				DA15F1512A7EE51000057C69 /* Resources */,
+			);
+			path = ForceSkip;
+			sourceTree = "<group>";
+		};
+		DA15F1512A7EE51000057C69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA15F1522A7EE51000057C69 /* Main.html */,
+				DA15F1552A7EE51000057C69 /* Icon.png */,
+				DA15F1572A7EE51000057C69 /* Style.css */,
+				DA15F1592A7EE51000057C69 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA15F16C2A7EE51200057C69 /* ForceSkip Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA15F16D2A7EE51200057C69 /* SafariWebExtensionHandler.swift */,
+				DA15F1802A7EE51200057C69 /* Info.plist */,
+				DA15F1812A7EE51200057C69 /* ForceSkip_Extension.entitlements */,
+				DA15F16F2A7EE51200057C69 /* Resources */,
+			);
+			path = "ForceSkip Extension";
+			sourceTree = "<group>";
+		};
+		DA15F16F2A7EE51200057C69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA15F1702A7EE51200057C69 /* _locales */,
+				DA15F1722A7EE51200057C69 /* images */,
+				DA15F1742A7EE51200057C69 /* manifest.json */,
+				DA15F1782A7EE51200057C69 /* content.js */,
+				DA15F1762A7EE51200057C69 /* background.js */,
+				DA15F17A2A7EE51200057C69 /* popup.html */,
+				DA15F17C2A7EE51200057C69 /* popup.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA15F14B2A7EE51000057C69 /* ForceSkip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA15F1882A7EE51200057C69 /* Build configuration list for PBXNativeTarget "ForceSkip" */;
+			buildPhases = (
+				DA15F1482A7EE51000057C69 /* Sources */,
+				DA15F1492A7EE51000057C69 /* Frameworks */,
+				DA15F14A2A7EE51000057C69 /* Resources */,
+				DA15F1872A7EE51200057C69 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA15F16B2A7EE51200057C69 /* PBXTargetDependency */,
+			);
+			name = ForceSkip;
+			productName = ForceSkip;
+			productReference = DA15F14C2A7EE51000057C69 /* ForceSkip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA15F1672A7EE51200057C69 /* ForceSkip Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA15F1842A7EE51200057C69 /* Build configuration list for PBXNativeTarget "ForceSkip Extension" */;
+			buildPhases = (
+				DA15F1642A7EE51200057C69 /* Sources */,
+				DA15F1652A7EE51200057C69 /* Frameworks */,
+				DA15F1662A7EE51200057C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ForceSkip Extension";
+			productName = "ForceSkip Extension";
+			productReference = DA15F1682A7EE51200057C69 /* ForceSkip Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA15F1442A7EE51000057C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DA15F14B2A7EE51000057C69 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DA15F1672A7EE51200057C69 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DA15F1472A7EE51000057C69 /* Build configuration list for PBXProject "ForceSkip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA15F1432A7EE51000057C69;
+			productRefGroup = DA15F14D2A7EE51000057C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA15F14B2A7EE51000057C69 /* ForceSkip */,
+				DA15F1672A7EE51200057C69 /* ForceSkip Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA15F14A2A7EE51000057C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15F1562A7EE51000057C69 /* Icon.png in Resources */,
+				DA15F18C2A7EF8D900057C69 /* .gitignore in Resources */,
+				DA15F15F2A7EE51000057C69 /* Main.storyboard in Resources */,
+				DA15F15A2A7EE51000057C69 /* Script.js in Resources */,
+				DA15F1542A7EE51000057C69 /* Main.html in Resources */,
+				DA15F1612A7EE51100057C69 /* Assets.xcassets in Resources */,
+				DA15F1582A7EE51000057C69 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15F1662A7EE51200057C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15F1772A7EE51200057C69 /* background.js in Resources */,
+				DA15F17D2A7EE51200057C69 /* popup.css in Resources */,
+				DA15F17B2A7EE51200057C69 /* popup.html in Resources */,
+				DA15F1732A7EE51200057C69 /* images in Resources */,
+				DA15F1752A7EE51200057C69 /* manifest.json in Resources */,
+				DA15F1712A7EE51200057C69 /* _locales in Resources */,
+				DA15F1792A7EE51200057C69 /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA15F1482A7EE51000057C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15F15C2A7EE51000057C69 /* ViewController.swift in Sources */,
+				DA15F1502A7EE51000057C69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15F1642A7EE51200057C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15F16E2A7EE51200057C69 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA15F16B2A7EE51200057C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA15F1672A7EE51200057C69 /* ForceSkip Extension */;
+			targetProxy = DA15F16A2A7EE51200057C69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA15F1522A7EE51000057C69 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA15F1532A7EE51000057C69 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DA15F15D2A7EE51000057C69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA15F15E2A7EE51000057C69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA15F1822A7EE51200057C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA15F1832A7EE51200057C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DA15F1852A7EE51200057C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ForceSkip Extension/ForceSkip_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ForceSkip Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ForceSkip Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.pauel.ForceSkip.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA15F1862A7EE51200057C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ForceSkip Extension/ForceSkip_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ForceSkip Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ForceSkip Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.pauel.ForceSkip.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DA15F1892A7EE51200057C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForceSkip/ForceSkip.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ForceSkip;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.pauel.ForceSkip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA15F18A2A7EE51200057C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForceSkip/ForceSkip.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ForceSkip;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.pauel.ForceSkip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA15F1472A7EE51000057C69 /* Build configuration list for PBXProject "ForceSkip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15F1822A7EE51200057C69 /* Debug */,
+				DA15F1832A7EE51200057C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA15F1842A7EE51200057C69 /* Build configuration list for PBXNativeTarget "ForceSkip Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15F1852A7EE51200057C69 /* Debug */,
+				DA15F1862A7EE51200057C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA15F1882A7EE51200057C69 /* Build configuration list for PBXNativeTarget "ForceSkip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15F1892A7EE51200057C69 /* Debug */,
+				DA15F18A2A7EE51200057C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA15F1442A7EE51000057C69 /* Project object */;
+}
