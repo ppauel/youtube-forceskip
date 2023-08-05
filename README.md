@@ -1,4 +1,11 @@
-# ForceSkip
+<div align="center">
+  
+![icon-128](https://github.com/ppauel/youtube-forceskip/assets/82803315/44d3b686-21e5-4249-821c-32b868cab092)
+
+<h1 align="center">ForceSkip</h1>
+
+</div>
+
 
 A **Safari Web Extension** that adds a button to the YouTube player to skip everything, including ads.
 
