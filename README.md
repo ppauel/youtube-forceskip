@@ -12,7 +12,7 @@ A public release build is currently not available. Instead, you have to build th
 4. Click `Distribute App`
 5. Select `Copy App` and choose a destination
 
-**Done!** Since this is an unsigned application, you will have to *allow unsigned extensions* in the `Develop` menu.
+**Done!** Since this is an unsigned application, you will have to *allow unsigned extensions* in Safari's `Develop` menu.
 
 ## Usage
 Open the built application to install the extension. Before you can use the extension, you need to grant it access to `youtube.com`. You can do this either via the icon in the toolbar while visiting YouTube, or in the Safari settings.
