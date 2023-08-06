@@ -15,10 +15,10 @@ A public release build is currently not available. Instead, you have to build th
 ## Build
 1. Clone the repository
 2. Open the project in Xcode
-3. Go to `Product` > `Archive`
-4. Click `Distribute App`
-5. Select `Copy App` and choose a destination
-6. Optional: Sign both targets (Personal Team with a Development certificate is sufficient)
+3. Optional: Sign both targets (Personal Team with a Development certificate is sufficient)
+4. Go to `Product` > `Archive`
+5. Click `Distribute App`
+6. Select `Copy App` and choose a destination
 
 **Done!** If you did not sign your application, you will have to *allow unsigned extensions* in Safari's `Develop` menu.
 
