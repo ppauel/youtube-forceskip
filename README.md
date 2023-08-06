@@ -2,6 +2,11 @@
   
 ![icon-128](https://github.com/ppauel/youtube-forceskip/assets/82803315/44d3b686-21e5-4249-821c-32b868cab092)
 
+![Static Badge](https://img.shields.io/badge/Safari-%5E16.0-blue)
+![Static Badge](https://img.shields.io/badge/macOS-%5E13.0-blue)
+![Static Badge](https://img.shields.io/badge/Xcode-%5E14.0-blue)
+
+
 <h1 align="center">ForceSkip</h1>
 
 </div>
@@ -28,9 +33,3 @@ Open the built application to install the extension. Before you can use the exte
 The extension now adds a new button (⏩) in the YouTube player. This allows to skip the currently displayed content (including advertisements).
 
 <img width="345" alt="image" src="https://github.com/ppauel/youtube-forceskip/assets/82803315/b833303b-f6cf-4769-90bd-2fdcbfbbda13">
-
-
-## Requirements
-- MacOS `13.0+` (Intel / Apple Silicon)
-- Xcode `14.3+`
-- Safari `16.6+`
