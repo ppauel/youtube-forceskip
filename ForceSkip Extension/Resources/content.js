@@ -22,9 +22,9 @@ if (window.location.pathname.startsWith("/watch")) {
         var forceSkipButton = document.createElement("button");
         forceSkipButton.classList.add("ytp-play-button", "ytp-button");
         forceSkipButton.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="100%" viewBox="0 0 36 36" fill="none">
-                <path d="M22 18.3333L10 25.2615L10 11.4051L22 18.3333Z" fill="#FFFFFF"/>
-                <path d="M30 18.3333L18 25.2615L18 11.4051L30 18.3333Z" fill="#FFFFFF"/>
+            <svg width="36" height="100%" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.9293 13.4451C17.9293 12.4164 19.0429 11.7734 19.9338 12.2878L28.3162 17.1274C29.2071 17.6418 29.2071 18.9277 28.3162 19.442L19.9338 24.2816C19.0429 24.796 17.9293 24.1531 17.9293 23.1243L17.9293 13.4451Z" fill="white"/>
+                <path d="M10.1542 13.4451C10.1542 12.4164 11.2678 11.7734 12.1587 12.2878L20.5412 17.1274C21.4321 17.6418 21.4321 18.9277 20.5412 19.442L12.1587 24.2816C11.2678 24.796 10.1542 24.1531 10.1542 23.1243L10.1542 13.4451Z" fill="white"/>
             </svg>
         `;
 
